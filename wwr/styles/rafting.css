@@ -1,5 +1,5 @@
 
-oswald-font {
+.oswald-regular {
   font-family: "Oswald", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -54,7 +54,7 @@ nav ul li a {
 /*uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 1000*/
 
-lora-font {
+.lora-regular {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
