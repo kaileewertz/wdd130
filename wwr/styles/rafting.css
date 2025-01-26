@@ -71,8 +71,9 @@ nav ul li a {
  .container {
   position: relative;
  }
- .image2 {
+.image2{
+  float: right;
   position: absolute;
   right: -100px;
   transform: scale(0.5);
- }
+}
