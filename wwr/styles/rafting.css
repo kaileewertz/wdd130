@@ -58,3 +58,9 @@ nav ul li a {
   font-weight: 400;
   font-style: normal;
 }
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
