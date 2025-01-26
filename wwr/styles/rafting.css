@@ -2,6 +2,9 @@
   font-family: "Oswald", serif;
   background-color: #8ECAE6;
 }
+main {
+  padding: 0px 60px;
+}
 .oswald-regular {
   font-family: "Oswald", serif;
   font-weight: 400;
@@ -63,17 +66,52 @@ nav ul li a {
   font-style: normal;
 }
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
  .container {
+  /* Use "linear-gradient" to ad a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/headline.jpg");
+
+  /* Set a specific height*/
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
+  width: 100%;
  }
-.image2{
-  float: right;
+
+.container-text {
+  display: right;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  right: -100px;
-  transform: scale(0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -42%);
+  color: white;
+  width: 100%;
+}
+
+.container-text h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), (rgba(0, 0, 0, 0.7)));
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.content img {
+  scale: 45%;
+}
+
+.content p {
+  color: white;
+  padding-left: 20px;
 }
