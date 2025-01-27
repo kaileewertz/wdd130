@@ -89,7 +89,7 @@ nav ul li a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -42%);
+  transform: translate(-50%, -40%);
   color: white;
   width: 100%;
 }
@@ -108,7 +108,7 @@ nav ul li a {
 }
 
 .content img {
-  scale: 45%;
+  scale: 40%;
 }
 
 .content p {
