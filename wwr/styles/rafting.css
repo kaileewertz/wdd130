@@ -12,7 +12,8 @@ main {
 }
 h1, h2, h3{
   font-family: "Oswald", serif;
-  color: #fb8500;
+  color: black;
+  text-align: center;
 }
 p {
   font-family: "Lora", serif;
@@ -69,7 +70,7 @@ nav ul li a {
 
  .container {
   /* Use "linear-gradient" to ad a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/headline.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/headline.jpg");
 
   /* Set a specific height*/
   height: 50vh;
@@ -95,7 +96,8 @@ nav ul li a {
 }
 
 .container-text h1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 2));
+  color: #8ECAE6;
   padding: 10px;
 }
 
@@ -108,10 +110,50 @@ nav ul li a {
 }
 
 .content img {
-  scale: 40%;
+  scale: 85%;
 }
 
 .content p {
   color: white;
   padding-left: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding-left: 65px;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 62%;
+  padding: 10px 50px;
+}
+
+img {
+  width: 200px;
+}
+
+.social-icon {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.photopreview {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+padding: 20px 0px;
+}
+
+.history-con {
+  width: 400px;
+}
+
+.floated {
+  float: left;
+  width: 150px;
 }
