@@ -110,7 +110,7 @@ nav ul li a {
 }
 
 .content img {
-  scale: 85%;
+  transform: scale(0.85);
 }
 
 .content p {
@@ -156,4 +156,12 @@ padding: 20px 0px;
 .floated {
   float: left;
   width: 150px;
+}
+
+.z {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+padding: 20px 0px;
 }
